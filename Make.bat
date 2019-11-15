@@ -106,7 +106,6 @@ if not %ERRORLEVEL%==0 (set errorMessage=Make-installer.bat failed or not found 
 echo.
 echo All operations completed successfully.
 echo.
-pause
 exit /b 0
 
 :ERROR_QUIT
@@ -117,5 +116,4 @@ if defined errorMessage (
     echo An unknown error occurred.
 )
 echo.
-pause
 exit /b 1
